@@ -1,0 +1,46 @@
+body{
+    background: beige;
+}
+header{
+    font-family: cursive;
+    font-size: 50px;
+    color: rgb(52, 97, 28);
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: white; 
+    padding: 10px; 
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden;
+    color: green;
+    font-family: cursive;
+    font-size: 25px;
+
+}
+li:hover {
+    background-color: rgb(16, 232, 24);
+}
+h1{
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden;
+}
+ul{
+    display: flex; /* Hacemos flex al ul */
+    justify-content: center; /* Centramos en el eje horizontal */
+    justify-content: space-evenly; /* Aplicamos separación a los elementos dentro del ul */
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* Quitamos los estilos de lista */
+    overflow: hidden;
+    background-color: rgb(106, 131, 101);
+    font-family: monospace;
+    color: beige;
+}
